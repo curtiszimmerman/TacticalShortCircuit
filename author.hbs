@@ -6,9 +6,9 @@
 {{! Everything inside the #author tags pulls data from the author }}
 {{#author}}
     <section class="author-profile">
-        <div class="author-cover" {{#if cover}}style="background-image: url({{cover}}){{/if}}">
-            {{#if image}}
-                <img class="author-image" alt="{{name}}'s Picture" src="{{image}}">
+        <div class="author-cover" {{#if cover_image}}style="background-image: url({{cover_image}}){{/if}}">
+            {{#if profile_image}}
+                <img class="author-image" alt="{{name}}'s Picture" src="{{profile_image}}">
             {{/if}}
         </div>
 
@@ -27,4 +27,4 @@
 {{/author}}
 
 {{! The tag below includes the post loop - partials/loop.hbs }}
-{{> "loop"}}
+{{> loop}}

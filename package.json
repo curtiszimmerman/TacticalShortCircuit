@@ -1,4 +1,10 @@
 {
-  "name": "TacticalShortCircuit",
-  "version": "0.0.1"
+  "name": "tactical-short-circuit",
+  "version": "1.0.0",
+  "author": {
+  	"email": "software@curtisz.com"
+  },
+  "config": {
+  	"posts_per_page": 5
+  }
 }

@@ -4,6 +4,8 @@ A fork of the wonderful [StayPuft](https://github.com/dlecina/StayPuft) theme by
 
 ## Ghost Version
 
+NOTE: Because I don't touch this theme often, there is definitely probably some divergence between the old Casper versions and my current tags. Ghost has upgraded from 0.x into 1.x, and I'm being forced to change TacticalShortCircuit in order to upgrade Ghost to 1.x. So I've taken the lazy way out and just tagged the "old" theme files with "v0.x" and the "new" theme files with "v1.0". The changes I made were those suggested by the awesome [gscan theme scanner](https://gscan.ghost.org/), which lists changes your theme needs to bring it into the 21st century.
+
 TSC (TacticalShortCircuit) tries to match Casper's version numbering system. That is, TSC version A.B.C should roughly have the same (or more) features as Casper version A.B.C. Features and bug fixes may be added between major versions, so the best way to stay updated is to clone and pull changes from the repo.
 
 **The current TSC version is 0.0.1, and should work with Ghost 0.5.6, as well as some (but not all) older versions.**
